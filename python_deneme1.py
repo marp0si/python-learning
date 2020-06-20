@@ -1,12 +1,12 @@
-sayi1,sayi2,sayi3,enbuyuk=10,20,5,0
+sayi1,sayi2,sayi3=input("sayi1:"),input("sayi2:"),input("sayi3:")
+enbuyuk==sayi1
 if sayi1>=sayi2 and sayi1>=sayi3:
     enbuyuk=sayi1
 elif sayi2>=sayi1 and sayi2>=sayi3:
     enbuyuk=sayi2
 else :
     enbuyuk=sayi3
- 
-#print(enbuyuk)
+print(enbuyuk)
 ###########################################################
 #faktoriyel bulma#
 sayi=int(input("sayi girin: "))

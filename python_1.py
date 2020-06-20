@@ -4,8 +4,8 @@ website="http://www.abcabcabc.com"
 name,surname='sinan','bilgili'
 result=website[7:10]#www
 result=website[::-1]##moc.cbacbacba.www//:ptth
-print(name,surname)##('sinan', 'bilgili')
-print(result+"\n"+website)
+#print(name,surname)##('sinan', 'bilgili')
+#print(result+"\n"+website)
 
 
 s="  hello  there"
@@ -27,7 +27,7 @@ sayi=len(sinan)
 if sayi==28 or sayi>=len(sinan):## Or-And
     print("Evet 28 karakterdir. ")
 
-    
+
 
 
 
