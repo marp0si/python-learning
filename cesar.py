@@ -1,4 +1,5 @@
-from utils import *
+
+import hashlib
 
 sec = input("secin: \n[1] şifrele\n[2] sifre cöz \n")
 if sec == '1':
@@ -12,5 +13,4 @@ elif sec == '2':
     print(decode(ifade, k))
 
     
-
 print(str("Hello, world!".encode(encoding='utf-8')))
