@@ -44,10 +44,11 @@ p1.changeAddress('aaabbbcccc')
 print(p1.address)
 print(f'{str(p1)} str fonksiyonu çalıştı')
 print(f'{len(p1)} len fonksiyon çalıştı')
+
+
+del p1 ### diğerleri de siliyor çünkü program bitiyor ramde boşa yer kaplamasın knk
 '''
 
-
-### diğerleri de siliyor çünkü program bitiyor ramde boşa yer kaplamasın knk
 
 
 '''
