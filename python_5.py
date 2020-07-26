@@ -29,11 +29,11 @@ class Person:
     #method
 
 #object
-
+'''
 p1=Person('asd',20)
 p2=Person('dsa',10)
 p3=Person('aaa',11)#init çalıştırır kappa
-'''
+
 #print(p1)
 #print(type(p1))
 print('name:'+p1.names+'  year:'+str(p1.years))
