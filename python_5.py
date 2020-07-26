@@ -17,6 +17,10 @@ class Person:
         
         def __len__(self):
             return self.years
+
+        def __del__(self):
+            print(self.names+' obje uzantısı silindi')
+
         #object attributes
         def changeAddress(self,address):
             self.address=address
@@ -25,11 +29,11 @@ class Person:
     #method
 
 #object
-'''
+
 p1=Person('asd',20)
 p2=Person('dsa',10)
 p3=Person('aaa',11)#init çalıştırır kappa
-
+'''
 #print(p1)
 #print(type(p1))
 print('name:'+p1.names+'  year:'+str(p1.years))
@@ -40,9 +44,12 @@ p1.changeAddress('aaabbbcccc')
 print(p1.address)
 print(f'{str(p1)} str fonksiyonu çalıştı')
 print(f'{len(p1)} len fonksiyon çalıştı')
-
-
 '''
+
+
+### diğerleri de siliyor çünkü program bitiyor ramde boşa yer kaplamasın knk
+
+
 '''
 class Person:
     address='aaa'
