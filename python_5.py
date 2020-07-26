@@ -13,8 +13,10 @@ class Person:
             print('init calıştı')
 
         def __str__(self):
-            return 0
-            
+            return ''
+        
+        def __len__(self):
+            return self.years
         #object attributes
         def changeAddress(self,address):
             self.address=address
@@ -23,7 +25,7 @@ class Person:
     #method
 
 #object
-'''
+
 p1=Person('asd',20)
 p2=Person('dsa',10)
 p3=Person('aaa',11)#init çalıştırır kappa
@@ -36,7 +38,10 @@ print('name:'+p2.names+'  year:'+str(p2.years))
 print(p1.address)
 p1.changeAddress('aaabbbcccc')
 print(p1.address)
-'''
+print(f'{str(p1)} str fonksiyonu çalıştı')
+print(f'{len(p1)} len fonksiyon çalıştı')
+
+
 
 '''
 class Person:
