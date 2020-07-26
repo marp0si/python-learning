@@ -11,6 +11,9 @@ class Person:
             self.names=name
             self.years=year
             print('init calıştı')
+
+        def __str__(self):
+            return 0
             
         #object attributes
         def changeAddress(self,address):
