@@ -25,7 +25,7 @@ class Person:
     #method
 
 #object
-
+'''
 p1=Person('asd',20)
 p2=Person('dsa',10)
 p3=Person('aaa',11)#init çalıştırır kappa
@@ -42,7 +42,7 @@ print(f'{str(p1)} str fonksiyonu çalıştı')
 print(f'{len(p1)} len fonksiyon çalıştı')
 
 
-
+'''
 '''
 class Person:
     address='aaa'
