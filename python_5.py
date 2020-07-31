@@ -46,14 +46,7 @@ print(p1.address)
 print(f'{str(p1)} str fonksiyonu çalıştı')
 print(f'{len(p1)} len fonksiyon çalıştı')
 
-
 del p1 ### diğerleri de siliyor çünkü program bitiyor ramde boşa yer kaplamasın knk
-
-
-
-
-
-
 '''
 class Person:
     address='aaa'
@@ -98,7 +91,6 @@ del person1
 print(f'{str(Student1)} ===> str çalıştı')
 print(f'{len(teather1)}           ===> len çalıştı')
 '''
-
 
 '''
 class Person:
@@ -153,5 +145,4 @@ print(f'{len(daireler)} tane')
 for a in daireler:
     print(f'{a.dairealan()}+{a.dairecevre()}')
 
-
-
+'''
