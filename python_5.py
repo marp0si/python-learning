@@ -1,5 +1,6 @@
 #object oriented programming
 #class:
+'''
 class Person:
     #-pass
     #attributes
@@ -29,7 +30,8 @@ class Person:
     #method
 
 #object
-'''
+
+
 p1=Person('asd',20)
 p2=Person('dsa',10)
 p3=Person('aaa',11)#init çalıştırır kappa
@@ -48,6 +50,58 @@ print(f'{len(p1)} len fonksiyon çalıştı')
 
 del p1 ### diğerleri de siliyor çünkü program bitiyor ramde boşa yer kaplamasın knk
 '''
+
+
+
+
+
+
+class Person:
+    address='aaa'
+    def __init__(self,name,surname,age):
+        self.names=name
+        self.surnames=surname
+        self.ages=age
+        print('personel created')    
+   
+    def __str__(self):
+        return ''
+        
+    def __len__(self):
+        return 5
+
+    def __del__(self):
+        print(self.names+' => del ile silindi')
+        
+
+
+class Student(Person):
+    def __init__(self,name,surname,age,studentnum):
+        super().__init__(name,surname,age)
+        self.studentnums=studentnum
+        print('student created')
+    
+
+class teather(Person):
+    def __init__(self,name,surname,age,branch):
+        super().__init__(name,surname,age)
+        self.branchs=branch
+        print('teacher created')
+
+person1=Person('aaa','bbb',10)
+Student1=Student('aaaa','bbbb',20,30)
+teather1=teather('aaaaa','bbbbb',20,'math')
+print(person1.names)
+print(Student1.names)
+print(teather1.names)
+
+del person1
+print(f'{str(Student1)} ===> str çalıştı')
+print(f'{len(teather1)}           ===> len çalıştı')
+
+
+
+
 
 
 
@@ -81,6 +135,7 @@ print(Student1.names)
 print(teather1.names)
 '''
 
+
 '''
 class Daire:
     pi=3.14
@@ -102,4 +157,5 @@ daireler.append(Daire(input('yarıcap girin: ')))
 print(f'{len(daireler)} tane')
 for a in daireler:
     print(f'{a.dairealan()}+{a.dairecevre()}')
+
 '''
