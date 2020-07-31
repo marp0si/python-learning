@@ -1,6 +1,6 @@
 #object oriented programming
 #class:
-'''
+
 class Person:
     #-pass
     #attributes
@@ -31,7 +31,6 @@ class Person:
 
 #object
 
-
 p1=Person('asd',20)
 p2=Person('dsa',10)
 p3=Person('aaa',11)#init çalıştırır kappa
@@ -49,13 +48,13 @@ print(f'{len(p1)} len fonksiyon çalıştı')
 
 
 del p1 ### diğerleri de siliyor çünkü program bitiyor ramde boşa yer kaplamasın knk
+
+
+
+
+
+
 '''
-
-
-
-
-
-
 class Person:
     address='aaa'
     def __init__(self,name,surname,age):
@@ -98,11 +97,7 @@ print(teather1.names)
 del person1
 print(f'{str(Student1)} ===> str çalıştı')
 print(f'{len(teather1)}           ===> len çalıştı')
-
-
-
-
-
+'''
 
 
 '''
@@ -158,4 +153,5 @@ print(f'{len(daireler)} tane')
 for a in daireler:
     print(f'{a.dairealan()}+{a.dairecevre()}')
 
-'''
+
+
