@@ -4,7 +4,7 @@ def fib(n):
          print(a, end=' ')
          a, b = b, a+b
     print()
-fib(4182)
+##fib(4182)
 
 
 def fibo(a):
@@ -16,7 +16,7 @@ def fibo(a):
          toplam=sayi1+sayi2
          a+=1
     print(sira)
-fibo(0)
+#fibo(0)
 
 
 
