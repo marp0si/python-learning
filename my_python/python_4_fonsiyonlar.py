@@ -47,7 +47,7 @@ def myfunc(a,b,*agrs,**kwargs):
 myfunc(10,20,30,40,50,key1 = 'value1',key = 'value2')
 my={"ad":10,"soyad":10 }
 print(my)
-
+'''
 def square(num): 
     return num**2
 
@@ -57,8 +57,9 @@ b=map(square,liste)
 print(list(b))
 
 
-   
-def square(num):return num**2
+'''
+def square(num):
+    return num**2
 numbers=[1,3,5,9]
 result=list(map(square,numbers))
 print(result)
@@ -66,9 +67,9 @@ result=list(map(lambda num:num**2,numbers))
 print(result)
 
 
-for a in numbers:
-    b=square(a)
-    print(b)
+#for a in numbers:
+#    b=square(a)
+#    print(b)
 
-square=lambda num:num**2
+#square=lambda num:num**2
 print(square(5))
