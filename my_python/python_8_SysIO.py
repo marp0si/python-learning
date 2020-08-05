@@ -57,3 +57,13 @@ print(aaa[3],end='')
 
 file.close()
 '''
+'''
+with open("C:/users/sinan/desktop/newfile.txt","r+", encoding="utf-8") as file:
+    list = file.readlines()
+    list.insert(1,"Yılmaz Aygün\n")
+    file.seek(0)
+    file.writelines(list)
+
+with open("C:/users/sinan/desktop/newfile.txt","r", encoding="utf-8") as file:
+    print(file.read())
+'''
