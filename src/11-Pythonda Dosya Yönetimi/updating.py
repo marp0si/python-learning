@@ -28,5 +28,5 @@ with open("newfile.txt","r+", encoding="utf-8") as file:
     file.seek(0)
     file.writelines(list)
 
-with open("newfile.txt","r", encoding="utf-8") as file:
+with open("C:/users/sinan/desktop/newfile.txt","r", encoding="utf-8") as file:
     print(file.read())

@@ -93,11 +93,13 @@ result = re.findall("^P",str)
           Python : No match 
 
 """
-
+print(str)
 result = re.findall("t$",str)
+print(result)
 result = re.findall("saat$",str)
+print(result)
 result = re.findall("saatt$",str)
-
+print(result)
 """
      * - Bir karakterin sıfır ya da daha fazla sayıda olmasını 
          kontrol eder.
@@ -161,40 +163,7 @@ result = re.findall("[0-9]{2}", str)
 
 
 
-"""
-    \ - Özel karakterleri aramamızı sağlar.
-        \$a => $ karakterinin arkasına a karakterinin arar. Yani
-               $ regular exp. engine tarafından yorumlanmaz.
 
-    \A - Belirtilen karakter string in başında mı ?
-         \Athe => the string in başındamı
-
-        result = re.findall("\APython", str)
-        result = re.findall("saat\Z", str)
-
-    \Z - Belirtilen karakter string in sonunda mı ?
-         the\Z => the string in sonunda mı
-
-    \b - Belirtilen karakter kelimenin in başında ya da sonunda mı ?
-         \bthe => the kelimenin in başında mı?
-         the\b => the kelimenin in sonunda mı?
-
-    \B - Belirtilen karakter kelimenin in başında ya da sonunda değil mı ?
-         \Bthe => the kelimenin in başında değil mi?
-         the\B => the kelimenin in sonunda değil mi?
-    
-    \d - [0-9] ile aynı anlama gelir yani rakamları arar.
-         \d => 12abc34
-
-    \D - [^0-9] ile aynı anlama gelir yani rakam olmayanları arar.
-         \D => 1ab44_50
-
-    \s - Boşluk karakterlerini arar.  
-    \S - Boşluk karakterleri dışındakiler.
-    \w - Alfabetik karakterler, rakamlar ve alt çizgi karakteri.
-    \W - \w nin tam tersi
-    
-"""
 
 
 print(result)

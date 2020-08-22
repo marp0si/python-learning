@@ -1,4 +1,24 @@
-import datetime
+from datetime import datetime
+from datetime import timedelta
+#import datetime
+
+simdi = datetime.now()
+simdi = datetime.today()
+
+result = datetime.now()
+result = simdi.year
+result = simdi.month
+result = simdi.day
+result = simdi.hour
+result = simdi.minute
+result = simdi.second
+
+
+t = '15 April 2019 hour 10:12:30'
+result = datetime.strptime(t, '%d %B %Y hour %H:%M:%S')
+result = result.year
+
+
 simdikitarihzaman=datetime.datetime.now()
 simdikitarih=str(simdikitarihzaman).split(" ")
 simdikitarih1=simdikitarih[0].split("-")

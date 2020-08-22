@@ -1,4 +1,4 @@
-#open('*.*','r',encoding='cp1252') (read -okuma) default okur yoksa hata verir
+#open(file.name,'r',encoding='cp1252') (read -okuma) default okur yoksa hata verir
 #open('*.*','w',encoding='cp1252') (write-yazma) konumda oluşturur
 #open('*.*','a',encoding='cp1252') (append-ekleme) ekler yoksa oluşturur
 #open('*.*','x',encoding='cp1252') (create-oluşturma) oluşturur varsa hata
